@@ -5,11 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel ./src/index.html"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alan-Qiao/Dynamic-Personal-Website.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Alan-Qiao/Dynamic-Personal-Website/issues"
+  },
+  "homepage": "https://github.com/Alan-Qiao/Dynamic-Personal-Website#readme",
   "dependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.2.0", 
